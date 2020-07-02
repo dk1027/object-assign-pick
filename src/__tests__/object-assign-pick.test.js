@@ -4,6 +4,12 @@ const { assignPick, toM } = require("../object-assign-pick");
   { target: {}, model: { a: null }, sources: [{}], expected: {} },
   {
     target: {},
+    model: { a: null, b: null },
+    sources: [{ a: [1, 2, 3], b: 2 }],
+    expected: { a: [1, 2, 3], b:2 },
+  },
+  {
+    target: {},
     model: { a: null },
     sources: [{ a: [1, 2, 3], b: 2 }],
     expected: { a: [1, 2, 3] },
