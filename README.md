@@ -1,6 +1,11 @@
 # Object.assign + pick
 Picks properties from sources into target object.
 
+## Install
+```bash
+npm install object-assign-pick
+```
+
 ## assignPick({target, model, sources})
 `target` 
 The target object — what to apply the sources’ properties to, which is returned after it is modified.
