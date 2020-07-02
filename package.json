@@ -1,12 +1,22 @@
 {
   "name": "object-assign-pick",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pick the values of all enumerable own properties from one or more source objects to a target object",
   "main": "src/object-assign-pick.js",
   "scripts": {
     "test": "jest",
     "format": "prettier --write ."
   },
+  "keywords": [
+    "object",
+    "assign",
+    "pick",
+    "extend", 
+    "omit",
+    "destructure",
+    "subset",
+    "properties"
+  ],
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.3.1",
