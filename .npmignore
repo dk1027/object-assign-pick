@@ -1,0 +1,6 @@
+.nvmrc
+.gitignore
+.prettierrc.json
+.eslintrc.js
+node_modules
+src/__tests__/**/*
